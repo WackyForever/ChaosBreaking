@@ -74,7 +74,7 @@ public class ChaoticBreaking implements ModInitializer {
     private static boolean isEligible(Entity entity) {
         // Dropped items and normal living/interactive entities are eligible.
         // Players are excluded to prevent accidental player duplication.
-        return !(entity instanceof net.minecraft.entity.player.Player);
+        return !(entity instanceof net.minecraft.entity.player.PlayerEntity);
     }
 
     private static Entity duplicateEntity(ServerWorld world, Entity original) {

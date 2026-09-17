@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "chaoticbreaking",
+  "version": "${version}",
+  "name": "Chaotic Breaking",
+  "description": "Mining a block causes nearby eligible entities and dropped items to multiply.",
+  "authors": ["WackyForever"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wackyforever.chaoticbreaking.ChaoticBreaking"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
